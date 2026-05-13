@@ -54,7 +54,7 @@ export default function Navigation() {
     <header className="fixed top-0 left-0 right-0 z-50 px-4 pt-4">
       <nav className="mx-auto max-w-5xl">
         {/* Desktop Navigation - Floating Pill */}
-        <div className="hidden md:flex items-center justify-between bg-secondary/80 backdrop-blur-xl rounded-full px-3 py-2 border border-border/50 shadow-lg shadow-black/5 dark:shadow-black/20">
+        <div className="hidden md:flex items-center justify-between bg-secondary/80 backdrop-blur-xl rounded-full px-3 py-2 shadow-lg shadow-black/5 dark:shadow-black/20">
           {/* Left - Avatar & Name */}
           <Link href="/" className="flex items-center gap-3 pl-1 transition-opacity hover:opacity-70">
             <div className="flex items-center justify-center h-9 w-9 rounded-full bg-muted text-muted-foreground text-xs font-medium">
@@ -107,7 +107,7 @@ export default function Navigation() {
         </div>
 
         {/* Mobile Navigation */}
-        <div className="flex md:hidden items-center justify-between bg-secondary/80 backdrop-blur-xl rounded-full px-3 py-2 border border-border/50 shadow-lg shadow-black/5 dark:shadow-black/20">
+        <div className="flex md:hidden items-center justify-between bg-secondary/80 backdrop-blur-xl rounded-full px-3 py-2 shadow-lg shadow-black/5 dark:shadow-black/20">
           {/* Left - Avatar & Name */}
           <Link href="/" className="flex items-center gap-2 pl-1">
             <div className="flex items-center justify-center h-8 w-8 rounded-full bg-muted text-muted-foreground text-xs font-medium">

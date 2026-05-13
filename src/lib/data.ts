@@ -7,7 +7,7 @@
 export const siteConfig = {
   title: '黎杰朗 Jielang Li — Brand Designer',
   description: '品牌设计师 · 跨境视觉专家 · Brand Designer & Visual Creative',
-  name: 'Jielang Li',
+  name: 'Allen Lee',
   nameCN: '黎杰朗',
   role: 'Brand Designer',
   tagline: 'Building brands that stand out. 用设计让品牌脱颖而出。',
@@ -56,9 +56,9 @@ export const experienceData = {
   title: 'Work Experience',
   jobs: [
     {
-      role: '品牌总设计师',
+      role: '品牌设计师',
       company: '深圳锐掣创新科技有限公司（跨境户外）',
-      period: '2023/08 — 2025/03',
+      period: '2023/08 — 至今',
       highlights: [
         '负责公司整体的品牌全局框架设计',
         '亚马逊旗舰店（户外加热服、床垫、帐篷）整体风格定制设计',
@@ -68,7 +68,7 @@ export const experienceData = {
       ],
     },
     {
-      role: '品牌设计师',
+      role: '视觉设计师',
       company: '深圳爱非科医疗科技有限公司（跨境医疗）',
       period: '2021/04 — 2023/08',
       highlights: [

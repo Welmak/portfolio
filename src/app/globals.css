@@ -215,11 +215,11 @@ img { transition: opacity 0.3s ease; }
 
 .watermark-text {
   position: absolute;
-  font-size: clamp(120px, 20vw, 280px);
+  font-size: clamp(80px, 12vw, 180px);
   font-weight: 900;
   line-height: 0.85;
   color: var(--foreground);
-  opacity: 0.015;
+  opacity: 0.008;
   pointer-events: none;
   user-select: none;
   white-space: nowrap;

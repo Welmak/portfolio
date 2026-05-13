@@ -10,8 +10,9 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
           <ScrollReveal>
             <p className="text-muted text-sm tracking-[0.2em] uppercase mb-4">{aboutData.subtitle}</p>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15] whitespace-pre-line">
-              {aboutData.title}
+            <h2 className="font-bold tracking-tight">
+              <span className="text-xl sm:text-2xl md:text-3xl text-muted font-semibold">品牌设计师</span>
+              <span className="block text-3xl sm:text-4xl md:text-5xl text-foreground mt-3">跨境视觉专家</span>
             </h2>
           </ScrollReveal>
 

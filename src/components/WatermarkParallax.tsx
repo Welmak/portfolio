@@ -16,9 +16,9 @@ export default function WatermarkParallax() {
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
       {texts.map((text, i) => {
-        const yOffset = -scrollY * (0.06 + i * 0.025);
+        const yOffset = -scrollY * (0.04 + i * 0.02);
         const xBase = i % 2 === 0 ? '5%' : '55%';
-        const topBase = 15 + i * 22;
+        const topBase = 20 + i * 28;
         return (
           <span
             key={text}
